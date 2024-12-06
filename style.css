@@ -12,8 +12,8 @@ header {
 }
 
 nav {
-    padding: 1.3em 0;
-    width: 71vw;
+    padding: 1.2em 0;
+    width: 70vw;
     margin: auto;
 }
 
@@ -25,7 +25,7 @@ nav ul {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: bold;
     flex-basis: auto;
 }
@@ -34,6 +34,7 @@ nav a {
     text-decoration: none;
     color: #F2F4F3;
     transition: 0.2s;
+    padding-bottom: 1.3em;
 }
 
 nav span a {
@@ -42,13 +43,34 @@ nav span a {
 
 nav a:hover {
     color: #F2542D;
+    border-bottom: solid 4px #F2542D;
 }
 
 nav span a:hover {
     color: #F2F4F3;
 }
 
-main {
-    width: 71vw;
+h1 {
+    width: 70vw;
+    margin: auto;
+    font-size: 8vw;
+    padding: 4vw 0;
+}
+
+h1 .sprongrechts {
+    margin-left: 6vw;
+}
+
+h1 .beigetekst {
+    color: #FFFBEF;
+}
+
+h2 {
+    width: 70vw;
+    margin: auto;
+}
+
+p {
+    width: 70vw;
     margin: auto;
 }
