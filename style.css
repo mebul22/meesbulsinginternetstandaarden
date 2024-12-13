@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Algemeen*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    background-color: #F2F4F3;
+}
+
+a:focus-visible {
+    background-color: #aee5ff;
+    color: #211F1F;
+}
+
+/*Navigatie*/
+header {
+    background-color: #211F1F;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    padding: 1.2em 0;
+    width: 70vw;
+    margin: auto;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+nav img {
+    width: 200px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F2F4F3;
+    transition: 0.2s;
+    padding-bottom: 1.2em;
+}
+
+nav span a {
+    color: #F2542D;
+}
+
+nav a:hover {
+    color: #F2542D;
+    border-bottom: solid 4px #F2542D;
+}
+
+nav a:active {
+    background-color: #211F1F;
+    color: #aee5ff;
+}
+
+nav span a:hover {
+    color: #F2F4F3;
+}
+
+/*Home pagina*/
+.paginaheader {
+    background-image: url(images/headerachtergrond.png);
+    background-size: contain;
+    background-repeat: round;
+}
+
+h1 {
+    width: 70vw;
+    margin: auto;
+    font-size: 8vw;
+    padding: 4vw 0;
+}
+
+h1 .sprongrechts {
+    margin-left: 6vw;
+}
+
+h1 .beigetekst {
+    color: #FFFBEF;
+}
+
+h2 {
+    width: 70vw;
+    margin: auto;
+    font-size: 2.6em;
+    padding: 1.6em 0 0.6em 0;
+}
+
+p {
+    width: 70vw;
+    margin: auto;
+    font-size: 1.4em;
+}
+
+.intro div {
+    display: flex;
+    list-style-type: none;
+    width: 70vw;
+    margin: auto;
+    align-items: center;
+}
+
+.intro img {
+    width: 30vw;
+    height: auto;
+    padding-left: 4em;
+}
+
+h3 {
+    font-size: 1.8em;
+    color: #F2F4F3;
+    padding: 1em 0;
+}
+
+.afleveringkaart {
+    background-color: #211F1F;
+    border-radius: 15px;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-bottom: 24px;
+    box-shadow:  0 8px 16px #211F1F;
+}
+
+.afleveringkaart p {
+    width: 48vw;
+    font-size: 1.4em;
+    color: #F2F4F3;
+}
+
+.afleveringkaart span {
+    color: #F2542D;
+}
+
+.afleveringkaart img {
+    width: 20vw;
+    height: 20vw;
+    padding: 32px;
+    border-radius: 3.2vw;
+}
+
+.afleveringkaart div img {
+    width: 40vw;
+    height: auto;
+    padding: 0;
+    margin: 24px 0;
+}
+
+.afleveringkaart a {
+    font-weight: bold;
+    color: #F2542D;
+    text-decoration: none;
+}
+
+.afleveringkaart a:hover {
+    text-decoration: underline;
+}
+
+.uspheader {
+    text-align: center;
+}
+
+.usp {
+    display: flex;
+    text-align: center;
+    width: 70vw;
+    margin: auto;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.usp h3 {
+    color: #211F1F;
+}
+
+.usp p {
+    width: 320px;
+}
+
+/*Witte afleveringkaartjes voor afleveringen*/
+.afleveringen {
+    background-color: #211F1F;
+    color: #F2F4F3;
+    padding-bottom: 32px;
+}
+
+.afleveringen .afleveringkaart {
+    background-color: #F2F4F3;
+}
+
+.afleveringen .afleveringkaart h3 {
+    color: #211F1F;
+    font-size: 1.4em;
+}
+
+.afleveringen .afleveringkaart p {
+    color: #211F1F;
+    font-size: 1em;
+    width: 54vw;
+}
+
+.afleveringen img {
+    width: 200px;
+    height: 200px;
+}
+
+.afleveringen ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: #211F1F;
+    padding-top: 1em;
+    align-items: center;
+}
+
+.afleveringen li a {
+    font-weight: bold;
+    padding: 0.4em 0.6em;
+    background-color: #F2542D;
+    color: #F2F4F3;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.afleveringen li a:hover {
+    text-decoration: none;
+    color: #F2542D;
+    background-color: #211F1F;
+}
+
+.afleveringen li a:active {
+    color: #aee5ff;
+    background-color: #211F1F;
+}
+
+.afleveringen section {
+    margin-bottom: 32px;
+}
+
+/*Afleveringen pagina*/
+.headerafl ul {
+    width: 70vw;
+    margin: auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerafl li {
+    font-weight: bold;
+    padding: 0.4em 0.6em;
+    background-color: #F2542D;
+    color: #F2F4F3;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.headerafl #gekozen {
+    background-color: #211F1F;
+    color: #F2F4F3;
+}
+
+.headerafl li:hover {
+    text-decoration: none;
+    color: #F2542D;
+    background-color: #211F1F;
+}
+
+.headerafl #gekozen:hover {
+    background-color: #F2542D;
+    color: #F2F4F3;
+}
+
+.headerafl li:active {
+    color: #aee5ff;
+    background-color: #211F1F;
+}
+
+.achtergrondafl h1 {
+    text-align: center;
+    padding: 1.6em 0;
+}
+
+#afleveringpagina {
+    padding-top: 32px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.achtergrondafl {
+    background-image: url(images/aflpaginaachtergrond.png);
+    background-size: contain;
+    background-repeat: round;
+}
+/*https://www.w3schools.com/cssref/pr_background-repeat.php*/
+/*https://www.w3schools.com/cssref/css3_pr_background-size.php*/
+
+/*Over ons pagina*/
+.paginaheader div {
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.paginaheader iframe {
+    text-align: center;
+    width: 50vw;
+    height: 30vw;
+    border: none;
+}
+
+.intro span {
+    font-weight: bold;
+    line-height: 3.2em;
+}
+
+.overons .afleveringkaart img {
+    width: 220px;
+    height: 340px;
+}
+
+.overons .afleveringkaart {
+    padding-bottom: 0;
+    margin-bottom: 32px;
+}
+
+.overons .afleveringkaart p {
+    width: 53vw;
+    margin-bottom: 32px;
+}
+
+.overons ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.overons ul div {
+    display: flex;
+    gap: 32px;
+}
+
+.overons .afleveringkaart ul img {
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+    transition: all 0.2s;
+}
+
+.overons .afleveringkaart ul img:hover {
+    transform: translateY(-12px);
+}
+
+.waarover {
+    margin-bottom: 32px;
+}
+
+.formulier {
+    background-color: #211F1F;
+    color: #F2F4F3;
+}
+
+.formulier p {
+    margin-bottom: 32px;
+}
+
+.formulier a:hover {
+    text-decoration: underline;
+}
+
+.formulier a:active {
+    background-color: #211F1F;
+    color: #aee5ff;
+}
+
+.formulier a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #F2542D;
+}
+
+.formulier form {
+    width: 70vw;
+    margin: auto;
+    text-align: center;
+}
+
+.formulier input {
+    width: 100%;
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 32px;
+    outline: none;
+    font-size: 1em;
+}
+
+.formulier textarea {
+    height: 8em;
+    width: 100%;
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 32px;
+    outline: none;
+    font-size: 1em;
+    resize: none;
+}
+
+.formulier input[type=submit] {
+    background-color: #F2542D;
+    font-weight: bold;
+    color: #F2F4F3;
+    width: fit-content;
+    padding: 1em 2em;
+    transition: all 0.2s;
+}
+
+.formulier input[type=submit]:hover {
+    background-color: #F2F4F3;
+    color: #F2542D;
+}
+
+.formulier input[type=submit]:active {
+    background-color: #F2F4F3;
+    color: #aee5ff;
+}
+
+.formulier input[type=submit]:focus {
+    background-color: #aee5ff;
+    color: #211F1F;
+}
+
+/*Footer*/
+footer {
+    background-color: #F2542D;
+    color: #211F1F;
+}
+
+footer ul {
+    width: 70vw;
+    margin: auto;
+    color: #F2F4F3;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
+}
+
+footer a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #F2F4F3;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:active {
+    color: #aee5ff;
+    background-color: #F2542D;
+}
+
+footer img {
+    width: 40px;
+    transition: all 0.2s;
+}
+
+footer img:hover {
+    transform: translateY(-12px);
+}
+
+@media screen and (max-width:1450px) {
+    .afleveringkaart div {
+        margin-left: 32px;
+    }
+}
